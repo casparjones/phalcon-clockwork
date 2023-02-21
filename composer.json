@@ -1,14 +1,8 @@
 {
   "name": "casparjones/phalcon-clockwork",
-  "description": "The clockwork extension for working with the phalcon framework",
+  "description": "The clockwork extension for working with the phalcon framework. Fork  by kolesa-team/phalcon-clockwork",
   "version": "0.0.9",
   "type": "library",
-  "authors": [
-    {
-      "name": "Dmitriy Kuzyrov",
-      "email": "kuzyrov@kolesa.kz"
-    }
-  ],
   "autoload":{
     "psr-4":{
       "Kolesa\\Clockwork\\": ["src/", "tests/"]
