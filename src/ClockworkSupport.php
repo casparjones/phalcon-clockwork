@@ -90,11 +90,11 @@ class ClockworkSupport extends Injectable
      */
     public function clockworkStorage()
     {
-        $config    = $this->config->path('storage');
+        $config    = $this->config->path('storage', ['type' => "file"]);
         $className = '\\Kolesa\\Clockwork\\Storage\\' . ucfirst($config['type']);
 
         try {
-            if (class_exists($className)) {
+            if (class_exists($className) && $config['type'] !== 'file') {
                 $options = $config['options'] ?? [];
                 $storage = new $className($options, $config['expiration'] ?? null);
             } else {
