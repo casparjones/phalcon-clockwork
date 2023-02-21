@@ -1,5 +1,5 @@
 {
-  "name": "kolesa-team/phalcon-clockwork",
+  "name": "casparjones/phalcon-clockwork",
   "description": "The clockwork extension for working with the phalcon framework",
   "version": "0.0.9",
   "type": "library",
@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "php": ">=7.1",
+    "php": ">=8.0",
     "ext-phalcon": "*",
     "itsgoingd/clockwork": "^5.0"
   },
