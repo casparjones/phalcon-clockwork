@@ -16,7 +16,7 @@
   },
   "require": {
     "php": ">=7.1",
-    "ext-phalcon": "^4.1",
+    "ext-phalcon": "*",
     "itsgoingd/clockwork": "^5.0"
   },
   "require-dev": {
